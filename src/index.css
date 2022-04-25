@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
+  font-family:  'Oritron',sans-serif;
+}
+
+code {
+  font-family:  'Oritron',sans-serif;
+}
+.completed{
+  text-decoration:line-through;
+}
+.task{
+  cursor: pointer;
+}
+.main{
+  margin: 0 auto;
+  max-width: 1000px;
+ 
+  
+
+
+}
+table{ 
+ 
+  width: 80%;
+  min-width: 150px;
+}
+td:first-child{
+  width: 100%;
+}
+td:last-child{
+  min-width: 125px;
+
+}
+th{
+  text-align: left;
+
+}
+tr:nth-child(even){
+  background-color: #fae1b9;
+}
+.content{
+  
+  border-radius: 7px;
+  font-size: 20px;
+  border: 3px solid red ;
+  box-shadow: 0 0 10px 10px;
+  background-color:#FFEFD5  ;
+  color: black;
+ 
+}
+button{
+  width: 95px;
+  height: auto;
+ 
+  color: black;
+}
+input,button{
+  font-size: 20px;
+ 
+  margin-right: 2px;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 0 0 2px 1px;
+  margin-left: 2px;
+}
+button.add{
+  background-color: blueviolet;
+  color: white;
+}
+button.edit{
+  background-color: orange;
+  color: black;
+}
+button.save{
+  background-color: green;;
+  color: white
+}
+button.back{
+  background-color: lightblue;
+  color: black;
+}
+button.delete{
+  background-color: red;
+  
+  color: white;
+}
+.task-description{
+width: 300px;
+border: 3px solid black ;
+box-shadow: 0 0 2px 1px;
+justify-content: space-between;
+display: flex;
+border-radius: 5px;
+
+}
+.header{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 350px;
+  
+  border: 3px solid red ;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 10px;
+  background-color:#FFEFD5  ;
+  color: black;
+
+  font-size: 50px;
+  text-align: center;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+  
+}
+
+.inline{
+  display: flex;
+ 
+}
+
+.editInput{
+ 
+ width: 400px;
+  
+}
+.icon{
+  
+  margin-bottom: -3px;
+  margin-left: 1px;
+}
